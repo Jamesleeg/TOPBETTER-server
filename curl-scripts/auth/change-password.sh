@@ -1,6 +1,6 @@
 #!/bin/bash
 
-API="http://localhost:4741"
+API="https://shielded-citadel-63256.herokuapp.com/"
 URL_PATH="/change-password"
 
 curl "${API}${URL_PATH}/" \
